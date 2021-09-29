@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shadow</title>
+    <style>
+        h1{
+            text-shadow: 2px 2px red;
+            font-size: 75px;
+        }
+
+        .box{
+            height: 200px;
+            width: 200px;
+            box-shadow: 2px 2px 5px red;
+            overflow: auto;
+            position: absolute;
+            right: 0;
+            left: 750px;
+            top: 10px;
+        }
+
+        .outerbox{
+            height: 800px;
+            width: 500px;
+            box-shadow: 2px 2px 5px blueviolet;
+            position: relative;
+        }
+
+        .innerbox{
+            height: 100px;
+            width: 100px;
+            background-color: cadetblue;
+            top:50px;
+            left:90px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <h1>Text Shadow</h1>
+
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Doloribus, maiores recusandae. Mollitia amet velit veritatis perspiciatis 
+            suscipit quasi voluptatum facere quos. Praesentium culpa unde voluptates obcaecati
+             quis vel nam voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Doloribus, maiores recusandae. Mollitia amet velit veritatis perspiciatis 
+             suscipit quasi voluptatum facere quos. Praesentium culpa unde voluptates obcaecati
+              quis vel nam voluptate.</p>
+    </div>
+
+<br><br>
+
+<div class="outerbox">
+    <div class="innerbox">
+
+    </div>
+</div>
+</body>
+</html>
